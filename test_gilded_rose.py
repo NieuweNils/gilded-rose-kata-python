@@ -2,7 +2,7 @@
 import unittest
 
 from gilded_rose import Inventory
-from product import Product
+from products import Product
 
 
 class GildedRoseTest(unittest.TestCase):

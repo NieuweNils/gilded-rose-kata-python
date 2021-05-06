@@ -1,9 +1,9 @@
 from product_name import ProductName
-from aged_brie import AgedBrie
-from backstage_passes import BackstagePasses
-from sulfuras import Sulfuras
-from conjured import Conjured
-from product import Product
+from products import AgedBrie
+from products import BackstagePasses
+from products import Sulfuras
+from products import Conjured
+from products import Product
 
 
 class Factory:

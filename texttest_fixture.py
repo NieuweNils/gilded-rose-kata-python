@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 from gilded_rose import Inventory
-from product import Product
+from products import Product
 
 if __name__ == "__main__":
     print ("OMGHAI!")
