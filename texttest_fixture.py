@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-from ..gilded_rose import Inventory
-from ..product.product import Product
+from gilded_rose import Inventory
+from product import Product
 
 if __name__ == "__main__":
     print ("OMGHAI!")
@@ -42,9 +42,8 @@ if __name__ == "__main__":
         days = int(sys.argv[1]) + 1
     for day in range(days):
         print("-------- day %s --------" % day)
-        print("name, sellIn, quality")
         for product in inventory.products:
-            print(product)
+            print('%s (sell_in = %d, quality = %d)' % (product.name, product.sell_in, product.quality))
         print("")
         inventory.update()
 
