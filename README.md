@@ -1,3 +1,16 @@
+My solution to the gilded rose kata!
+
+Testable like this:
+```
+python3 test_gilded_rose.py
+```
+This also works, though I don't endorse this "test":
+```
+python3 texttest_fixture.py
+```
+
+_______________________________ Original README (assignment): ______________
+
 Hi and welcome to team Gilded Rose.
 As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison.
 We also buy and sell only the finest goods.
