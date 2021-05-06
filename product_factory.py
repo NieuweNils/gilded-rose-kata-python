@@ -1,4 +1,4 @@
-from product_name import ProductName
+from product_names import ProductName
 from products import AgedBrie
 from products import BackstagePasses
 from products import Sulfuras

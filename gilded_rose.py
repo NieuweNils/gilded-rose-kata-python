@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from factory import Factory
+from product_factory import Factory
 
 
 class Inventory(object):
